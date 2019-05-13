@@ -12,13 +12,13 @@ Make sure you have AWS access key and secrete keys setup locally, following this
 ### Download the code locally
 
 ```  
-serverless create --template-url https://github.com/CodeRecipe-dev/LambdaWebService --path lambda-web-service
+serverless create --template-url https://github.com/CodeRecipe-dev/apigw-lambda --path apigw-lambda
 ```
 
 ### Deploy to the cloud
  
 ```
-cd lambda-web-service
+cd apigw-lambda
 
 serverless deploy
 ```
