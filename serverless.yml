@@ -1,0 +1,14 @@
+##################################################################################
+# CodeRecipe - a marketplace for developers to grab ready to use cloud solutions #
+# More details at: https://coderecipe.ai/architectures/71853269                  #
+##################################################################################
+service: CodeRecipeSample-ApiGwLambda
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-1
+functions:
+  index:
+    handler: handler.handle
+    events:
+      - http: GET hello
